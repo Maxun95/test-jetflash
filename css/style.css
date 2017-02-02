@@ -1,0 +1,290 @@
+.flex-box, .main-container, .header, .header_content, .header_content-logo, .header_content-share, .block_picture, .block_picture-text, .fav-bl-text, .res-bl-text, .how-bl-text, .block_picture-plate, .favorites-block, .res-block, .how-block, .fav-bl-place, .res-bl-place, .how-bl-place, .fav-bl-grid, .res-bl-grid, .how-bl-schem, .fav-bl-offset, .res-bl-offset, .how-bl-offset, .fav-bl-item, .res-bl-item, .fav-img-block, .fav-text-block, .chanel-block, .chanel-block-place, .ch-bl-offset, .ch-bl-text {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: gray; }
+
+.main-container {
+  justify-content: flex-start;
+  background: #fff; }
+
+.header {
+  height: 65px;
+  background: #fff;
+  border-bottom: 5px solid #eeeeee;
+  flex-direction: row; }
+
+.header_content {
+  width: 960px;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #fff; }
+
+.header_content-logo {
+  background: #fff; }
+  .header_content-logo img {
+    margin: auto; }
+
+.header_content-share {
+  flex-direction: row;
+  float: right;
+  background: #fff; }
+  .header_content-share p, .header_content-share .fav-bl-text, .header_content-share .res-bl-text, .header_content-share .how-bl-text {
+    margin: auto;
+    color: #b1b0b1;
+    font-size: 16px;
+    font-family: "Segoe UI"; }
+  .header_content-share a {
+    margin: auto;
+    margin-left: 10px;
+    height: 23px;
+    height-line: 22px; }
+
+.block_picture {
+  background: transparent;
+  background-image: url(../img/block_picture-bg.png);
+  height: 547px;
+  max-height: 547px;
+  background-position: center center;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover; }
+
+.block_picture-text, .fav-bl-text, .res-bl-text, .how-bl-text {
+  max-width: 960px;
+  background-color: transparent;
+  justify-content: space-between; }
+  .block_picture-text p, .fav-bl-text p, .res-bl-text p, .how-bl-text p, .block_picture-text .fav-bl-text, .fav-bl-text .fav-bl-text, .res-bl-text .fav-bl-text, .how-bl-text .fav-bl-text, .block_picture-text .res-bl-text, .fav-bl-text .res-bl-text, .res-bl-text .res-bl-text, .how-bl-text .res-bl-text, .block_picture-text .how-bl-text, .fav-bl-text .how-bl-text, .res-bl-text .how-bl-text, .how-bl-text .how-bl-text {
+    font-family: "Segoe UI";
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 48px;
+    height: 20px; }
+  .block_picture-text span, .fav-bl-text span, .res-bl-text span, .how-bl-text span {
+    font-family: "Segoe UI";
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%; }
+
+.block_picture-plate {
+  width: 960px;
+  height: 200px;
+  background-color: transparent;
+  justify-content: flex-start; }
+
+.favorites-block, .res-block, .how-block {
+  background-color: transparent;
+  background-image: url(../img/favorites-block_bg.png);
+  height: 782px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  justify-content: center;
+  flex-direction: row; }
+
+.fav-bl-place, .res-bl-place, .how-bl-place {
+  background-color: transparent;
+  width: 960px;
+  justify-content: center;
+  flex-direction: column; }
+
+.fav-bl-text, .res-bl-text, .how-bl-text {
+  margin: auto; }
+  .fav-bl-text p, .res-bl-text p, .how-bl-text p, .fav-bl-text .fav-bl-text, .res-bl-text .fav-bl-text, .how-bl-text .fav-bl-text, .fav-bl-text .res-bl-text, .res-bl-text .res-bl-text, .how-bl-text .res-bl-text, .fav-bl-text .how-bl-text, .res-bl-text .how-bl-text, .how-bl-text .how-bl-text {
+    color: #1c2532;
+    height: 100px; }
+
+.fav-bl-grid, .res-bl-grid, .how-bl-schem {
+  background-color: transparent;
+  height: 582px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.fav-bl-offset, .res-bl-offset, .how-bl-offset {
+  height: 100px;
+  background-color: transparent; }
+
+.fav-bl-item, .res-bl-item {
+  background: transparent;
+  width: 236px;
+  height: 208px;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.fav-img-block {
+  justify-content: center;
+  flex-direction: row;
+  background: transparent;
+  width: 199px;
+  height: 116px;
+  border: 3px solid #7bb63c;
+  filter: grayscale(100%); }
+  .fav-img-block img {
+    display: block;
+    margin: auto;
+    -ms-filter: grayscale(100%); }
+
+.fav-text-block {
+  background: transparent;
+  height: 85px;
+  justify-content: space-between; }
+  .fav-text-block p, .fav-text-block .fav-bl-text, .fav-text-block .res-bl-text, .fav-text-block .how-bl-text {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 22px;
+    color: #1c2532; }
+
+.fav-bl-item:hover, .res-bl-item:hover {
+  cursor: pointer; }
+  .fav-bl-item:hover .fav-img-block, .res-bl-item:hover .fav-img-block {
+    filter: grayscale(0%); }
+  .fav-bl-item:hover img, .res-bl-item:hover img {
+    filter: grayscale(0%); }
+  .fav-bl-item:hover p, .res-bl-item:hover p, .fav-bl-item:hover .fav-bl-text, .res-bl-item:hover .fav-bl-text, .fav-bl-item:hover .res-bl-text, .res-bl-item:hover .res-bl-text, .fav-bl-item:hover .how-bl-text, .res-bl-item:hover .how-bl-text {
+    color: #7bb63c; }
+
+.chanel-block {
+  height: 167px;
+  background-color: transparent;
+  background-image: url(../img/canel-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  flex-direction: row; }
+
+.chanel-block-place {
+  background: transparent;
+  height: auto;
+  width: 960px;
+  justify-content: space-between;
+  flex-direction: row; }
+
+.ch-bl-offset {
+  width: 280px;
+  margin: auto;
+  height: 100%;
+  background: #000;
+  background: transparent; }
+
+.ch-bl-text {
+  background: transparent;
+  width: 100%; }
+  .ch-bl-text p, .ch-bl-text .fav-bl-text, .ch-bl-text .res-bl-text, .ch-bl-text .how-bl-text {
+    display: block;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 300/200;
+    color: #ffffff;
+    width: 700px; }
+    .ch-bl-text p a, .ch-bl-text .fav-bl-text a, .ch-bl-text .res-bl-text a, .ch-bl-text .how-bl-text a {
+      color: #c5d533; }
+
+.res-block {
+  height: 360px;
+  background-image: url(); }
+
+.res-bl-place {
+  height: auto;
+  justify-content: flex-start;
+  height: 413px; }
+
+.res-bl-text {
+  height: 152px;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0; }
+  .res-bl-text p, .res-bl-text .fav-bl-text, .res-bl-text .res-bl-text, .res-bl-text .how-bl-text {
+    display: block;
+    height: auto; }
+
+.res-bl-grid {
+  height: 194px;
+  justify-content: space-between; }
+
+.res-bl-item {
+  background: transparent;
+  height: 72px;
+  width: auto;
+  border: 2px solid #0078d7; }
+  .res-bl-item p, .res-bl-item .fav-bl-text, .res-bl-item .res-bl-text, .res-bl-item .how-bl-text {
+    display: block;
+    margin: auto;
+    padding-left: 37px;
+    padding-right: 45px;
+    font-size: 18px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    line-height: 25px;
+    color: #0078d7; }
+
+.res-bl-offset, .how-bl-offset {
+  height: 62px;
+  background-color: transparent; }
+
+.res-bl-item:hover {
+  border: 2px solid #7bb63c;
+  background-color: #7bb63c; }
+  .res-bl-item:hover p, .res-bl-item:hover .fav-bl-text, .res-bl-item:hover .res-bl-text, .res-bl-item:hover .how-bl-text {
+    color: #fff; }
+
+#res-block-item_2 {
+  width: 376px; }
+
+.how-block {
+  background-image: url();
+  height: auto; }
+
+.how-bl-text {
+  height: 152px; }
+  .how-bl-text P {
+    display: block;
+    margin: auto; }
+
+.how-bl-schem {
+  background-color: transparent;
+  height: auto; }
+
+.how-bl-offset {
+  height: 140px; }
+
+@media only screen and (max-device-width: 1024px) {
+  .block_picture {
+    background-image: url();
+    background-color: #01bdf1; }
+
+  .block_picture-plate {
+    justify-content: center;
+    flex-direction: row; }
+
+  .block_picture-text p, .fav-bl-text p, .res-bl-text p, .how-bl-text p, .block_picture-text .fav-bl-text, .fav-bl-text .fav-bl-text, .res-bl-text .fav-bl-text, .how-bl-text .fav-bl-text, .block_picture-text .res-bl-text, .fav-bl-text .res-bl-text, .res-bl-text .res-bl-text, .how-bl-text .res-bl-text, .block_picture-text .how-bl-text, .fav-bl-text .how-bl-text, .res-bl-text .how-bl-text, .how-bl-text .how-bl-text, .block_picture-text span, .fav-bl-text span, .res-bl-text span, .how-bl-text span {
+    margin: auto; }
+
+  .block_picture-text, .fav-bl-text, .res-bl-text, .how-bl-text {
+    max-width: 960px;
+    background-color: transparent;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 410px; }
+
+  .fav-bl-grid, .res-bl-grid, .how-bl-schem {
+    width: 80%;
+    margin: auto; }
+
+  .fav-bl-place, .res-bl-place, .how-bl-place {
+    height: 24%; }
+
+  .favorites-block, .res-block, .how-block {
+    background-color: #fff;
+    background-image: url(); } }
+
+/*# sourceMappingURL=style.css.map */
